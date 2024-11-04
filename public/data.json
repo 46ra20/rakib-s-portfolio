@@ -59,12 +59,19 @@
   {
     "id": "2",
     "name": "Bank Management",
-    "description": "Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. ",
+    "description": "Mamar Bank is a bank management system developed as part of a Phitron course, utilizing Python ORM and Django to provide a secure and efficient backend. The system allows users to register, log in, deposit and transfer money, submit loan requests, and access detailed transaction reports. Designed with user convenience in mind, Mamar Bank streamlines essential banking functions in a seamless manner. Deployed on OnRender, the application benefits from reliable and scalable access, demonstrating modern web technologies' capability to support robust financial operations.",
     "gitHub": "https://github.com/46ra20/bank-management",
     "server": "https://github.com/46ra20/bank-management",
     "live": "https://bank-management-gpr8.onrender.com/",
-    "features": "",
-    "technology": "",
+    "features": ["User Registration and Authentication: Users can securely register and log in to their accounts.","Deposit and Withdrawals: Users can deposit funds and manage their balances with ease.",
+"Money Transfer: A straightforward interface for transferring money between accounts securely.",
+"Loan Management: Users can submit loan requests for review and processing.",
+"Transaction Reports: Detailed transaction reports to track all financial activities for better account management."],
+    "technology": [
+      "Database:SQLite (or any Django-compatible database): For storing user information, transactions, and loan records.",
+      "Frontend: HTML5, CSS3: For structuring and styling the user interface. JavaScript: For adding interactivity and enhancing the user experience.",
+      "Deployment:The project is hosted on OnRender, which provides a reliable and scalable environment for deploying web applications. This platform ensures seamless access and supports the necessary backend and frontend technologies to maintain the system’s performance and availability."
+    ],
     "pictures": [
       "https://i.ibb.co.com/JdDCQyf/4-1.png",
       "https://i.ibb.co.com/vsP6mBY/4-2.png",

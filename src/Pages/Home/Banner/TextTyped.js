@@ -9,7 +9,7 @@ const TextTyped = () => {
         <ReactTyped
           strings={[
             "Welcome To my portfolio...",
-            "Can you say me how can I help you?",
+            "How can I help you?",
             "Please send me a massage.",
             "I will try to reply very soon...",
             "Thank you very much for visiting my portfolio.",
