@@ -58,34 +58,39 @@
   },
   {
     "id": "2",
-    "name": "JSRN Learning Platform",
+    "name": "Bank Management",
     "description": "Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. ",
-    "gitHub": "https://github.com/46ra20/Learing-Platfrom_Client-Side",
-    "server": "https://github.com/46ra20/learing-platfrom-server-side",
-    "live": "https://assignment-10-d701a.web.app/login",
+    "gitHub": "https://github.com/46ra20/bank-management",
+    "server": "https://github.com/46ra20/bank-management",
+    "live": "https://bank-management-gpr8.onrender.com/",
     "features": "",
     "technology": "",
     "pictures": [
-      "https://i.ibb.co/WHWVBYc/4-1.png",
-      "https://i.ibb.co/F0w1pVr/4-2.png",
-      "https://i.ibb.co/X2zVTcG/4-3.png",
-      "https://i.ibb.co/k4wJq2g/4-4.png"
+      "https://i.ibb.co.com/JdDCQyf/4-1.png",
+      "https://i.ibb.co.com/vsP6mBY/4-2.png",
+      "https://i.ibb.co.com/wdSMrhM/4-3.png",
+      "https://i.ibb.co.com/9G2G47D/4-4.png"
     ]
   },
   {
     "id": "3",
     "name": "Speed Monster",
-    "description": "Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. ",
+    "description": "Speed Monster is a practice typing project designed to help users enhance their typing speed and accuracy through an engaging and interactive experience. Built using core web technologies like HTML, CSS, and JavaScript, the project provides a user-friendly interface that encourages consistent practice. With real-time feedback on typing speed and accuracy, users can easily monitor their progress and aim for improvement. The project includes dynamic exercises that adapt in difficulty to maintain user interest and promote growth. Its responsive design ensures a seamless experience across various devices, whether on desktop or mobile. Deployed on Vercel, Speed Monster offers reliable and scalable access, allowing users to practice and sharpen their typing skills anytime, anywhere.",
     "gitHub": "https://github.com/46ra20/Speed_Typer",
     "server": "",
     "live": "https://subtle-jelly-3e7be8.netlify.app/",
-    "features": "",
-    "technology": "",
+    "features": ["User-Friendly Interface: A clean, intuitive layout that encourages users to practice typing without distractions.",
+"Real-Time Feedback: Immediate response to user input displaying speed metrics and accuracy rates to help track improvement.",
+"Dynamic Challenges: Various typing exercises that adjust difficulty to keep users engaged.",
+"Responsive Design: Ensures a seamless experience across different devices, whether on a desktop or mobile."],
+    "technology": ["HTML5: For structuring the content of the web pages.",
+"CSS3: For styling and creating a visually appealing and responsive design.",
+"JavaScript: For adding interactivity and real-time typing feedback functionalities."],
     "pictures": [
-      "https://i.ibb.co/c1X38f9/3-1.png",
-      "https://i.ibb.co/NZRvNDR/3-2.png",
-      "https://i.ibb.co/BzvPxV8/3-3.png",
-      "https://i.ibb.co/f47GqXF/3-4.png"
+      "https://i.ibb.co.com/MSqnh4c/3-1.png",
+      "https://i.ibb.co.com/GHLBhLP/3-2.png",
+      "https://i.ibb.co.com/VNC8Xb1/3-3.png",
+      "https://i.ibb.co.com/PDxcd66/3-4.png"
     ]
   }
 ]

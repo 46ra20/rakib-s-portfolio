@@ -4,6 +4,7 @@ import Home from "./Pages/Home/Home/Home";
 
 import LayOut from "./Pages/LayOut/LayOut";
 import Blog from "./Pages/Blog/Blog"
+import AboutMe from "./Pages/Home/AboutMe/AboutMe";
 import ProjectDetails from "./Pages/Home/Projects/ProjectDetails"
 
 import Particles from "react-particles";
@@ -30,6 +31,10 @@ function App() {
           {
             path:"/blog",
             element: <Blog/>
+          },
+          {
+            path:"/about-me",
+            element:<AboutMe/>
           },
           {
             path:"/project/:id",

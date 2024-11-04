@@ -38,45 +38,47 @@ function ProjectDetails() {
   } = data[id];
 
   return (
-    <div className="container mx-auto mt-20 mb-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div>
+    <div className="container w-4/4 lg:w-8/12 mx-auto mt-20 mb-10">
+      <div className="mx-3 md:mx-0">
+        <div className="mb-5">
           <Carousel pictures={pictures}></Carousel>
         </div>
-        <div className="mx-3 md:mx-0">
-          {name && <h2 className="text-3xl font-semibold">{name}</h2>}
+        <div className="">
+          {name && <h2 className="underline mb-2 text-3xl font-semibold">{name}</h2>}
+          <p>
+            {gitHub && <a href={gitHub} className="pr-2" target="_blank" rel="noreferrer">Client Side Code</a>}
+            {server && <a href={server} className="px-2 border-l-2" target="_blank" rel="noreferrer">Server Side Code</a>}
+            {live && <a href={live} className="px-2 border-l-2" target="_noreferrer">Live Site</a>}
+          </p>
           {description && (
-            <p className="my-5">
-              <span className="underline font-semibold pr-5">
+            <p className="my-5 text-left">
+              <span className="font-bold pr-5">
                 Description:-
               </span>
               {description}
             </p>
           )}
-          <p>
-            {gitHub && <a href={gitHub} className="pr-2">Client Side Code</a>}
-            {server && <a href={server} className="px-2 border-l-2">Server Side Code</a>}
-            {live && <a href={live} className="px-2 border-l-2">Live Site</a>}
-          </p>
+          
         </div>
       </div>
-      <div className="my-10 grid grid-cols-1 md:grid-cols-2 mx-3 md:mx-0">
-        <div>
+      <div className="my-10 mx-3 md:mx-0">
+        <div className="mr-2 mx-auto">
           {features && (
-            <p className="underline text-xl">
-              Features are available in this project:-
+            <p className="text-xl text-left mr-2">
+              <span className="underline">Key Features</span>:-
             </p>
+
           )}
-          <ul className="list-inside list-disc">
-            {features && features.map((f, i) => <li key={i}>{f}</li>)}
+          <ul className="list-inside list-disc text-left">
+            {features && features.map((f, i) => <li className="mb-2" key={i}>{f}</li>)}
           </ul>
         </div>
         <div>
           {technology && (
-            <p className="underline text-xl">Usages Technology:-</p>
+            <p className="text-xl text-left mb-2"><span className="underline">Usages Technology</span>:-</p>
           )}
-          <ul className="list-inside list-disc">
-            {technology && technology.map((f, i) => <li key={i}>{f}</li>)}
+          <ul className="list-inside list-disc text-left">
+            {technology && technology.map((f, i) => <li className="mb-2" key={i}>{f}</li>)}
           </ul>
         </div>
       </div>

@@ -4,6 +4,7 @@ import { useRef } from "react";
 // import SendIco
 import { ToastContainer } from "react-toastify";
 // import emailjs from '@ema'
+import { IoSendSharp } from "react-icons/io5";
 
 
 const ContactWithMe = () => {
@@ -59,7 +60,7 @@ const ContactWithMe = () => {
           <input name="subject" placeholder="Subject" className="input input-md w-full my-3" type={'text'} ></input>
           <label htmlFor="name">Massages:</label>
           <textarea name="massage" placeholder="Massages" className="textarea w-full my-3" type={'text'} required></textarea>
-          <button className="btn btn-accent btn-md w-32">Submit</button>
+          <button className="btn btn-accent btn-md w-32">Send <IoSendSharp/> </button>
         </form>
       </div>
       <ToastContainer/>

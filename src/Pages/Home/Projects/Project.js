@@ -14,27 +14,27 @@ function Project({ project }) {
       <div className="card-body">
         <h2 className="card-title">{name}</h2>
         <p>
-          <a
+          {live && (<a
             href={live}
             target={"_blank"}
             rel="noreferrer"
             className="pr-2"
           >
             Live 
-          </a>
+          </a>)}
            |
-          <a href={gitHub} target={"_blank"} rel="noreferrer" className="pl-2 pr-2">
+          {gitHub && (<a href={gitHub} target={"_blank"} rel="noreferrer" className="pl-2 pr-2">
              Frontend Code
-          </a>
+          </a>)}
           |
-          <a
+          {server && (<a
             href={server}
             target={"_blank"}
             rel="noreferrer"
             className="pl-2"
           >
             Backend Code
-          </a>
+          </a>)}
         </p>
         <div className="card-actions justify-end">
           {/* <button className="btn btn-primary">Learn now!</button> */}
