@@ -1,0 +1,76 @@
+[
+  {
+    "id": "0",
+    "name": "JSRN Book House",
+    "description": "Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. ",
+    "gitHub": "https://github.com/46ra20/JSRN-Book-House-Client_Side",
+    "server": "https://github.com/46ra20/JSRN-Book-house-server-side",
+    "live": "https://lively-bienenstitch-0f7dd2.netlify.app/",
+    "features": [
+      "Three Step Security",
+      "Private Router",
+      "Admin Seller and Buyer have different Router",
+      "Admin can delete any user",
+      "Admin Can Verify any seller"
+    ],
+    "technology": ["Axios", "React Query", "Tailwind"],
+    "pictures": [
+      "https://i.ibb.co/qMK5bXg/1-2.png",
+      "https://i.ibb.co/895NPJh/1-4.png",
+      "https://i.ibb.co/FwPJBpM/1-3.png",
+      "https://i.ibb.co/0fY4cZM/1-1.png"
+    ]
+  },
+  {
+    "id": "1",
+    "name": "JSRN Kitchen",
+    "description": "Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. ",
+    "gitHub": "https://github.com/46ra20/JSRN-Kitchn-client-side",
+    "server": "https://github.com/46ra20/JSRN-Kitchn-server-side",
+    "live": "https://inspiring-cactus-bc978f.netlify.app/",
+    "features": [
+      "You can shear your creativity with other",
+      "Full Dynamic",
+      "Different Authentication System"
+    ],
+    "technology": ["React Router Dom", "React Tooltip", "Hot Toaster"],
+    "pictures": [
+      "https://i.ibb.co/dpTm0zT/2-1.png",
+      "https://i.ibb.co/C7S7R2t/2-2.png",
+      "https://i.ibb.co/XWphCjR/2-3.png",
+      "https://i.ibb.co/5nk0RGy/2-4.png"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "JSRN Learning Platform",
+    "description": "Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. ",
+    "gitHub": "https://github.com/46ra20/Learing-Platfrom_Client-Side",
+    "server": "https://github.com/46ra20/learing-platfrom-server-side",
+    "live": "https://assignment-10-d701a.web.app/login",
+    "features": "",
+    "technology": "",
+    "pictures": [
+      "https://i.ibb.co/WHWVBYc/4-1.png",
+      "https://i.ibb.co/F0w1pVr/4-2.png",
+      "https://i.ibb.co/X2zVTcG/4-3.png",
+      "https://i.ibb.co/k4wJq2g/4-4.png"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Speed Monster",
+    "description": "Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. ",
+    "gitHub": "https://github.com/46ra20/Speed_Typer",
+    "server": "",
+    "live": "https://subtle-jelly-3e7be8.netlify.app/",
+    "features": "",
+    "technology": "",
+    "pictures": [
+      "https://i.ibb.co/c1X38f9/3-1.png",
+      "https://i.ibb.co/NZRvNDR/3-2.png",
+      "https://i.ibb.co/BzvPxV8/3-3.png",
+      "https://i.ibb.co/f47GqXF/3-4.png"
+    ]
+  }
+]
