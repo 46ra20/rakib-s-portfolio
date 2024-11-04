@@ -1,44 +1,59 @@
 [
   {
     "id": "0",
-    "name": "JSRN Book House",
-    "description": "Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. ",
-    "gitHub": "https://github.com/46ra20/JSRN-Book-House-Client_Side",
-    "server": "https://github.com/46ra20/JSRN-Book-house-server-side",
-    "live": "https://lively-bienenstitch-0f7dd2.netlify.app/",
+    "name": "Online School",
+    "description": "The Online School Project is a dynamic and comprehensive web-based educational platform designed to replicate the experience of traditional schooling in a digital format. This system fosters seamless interactions between students and teachers through a secure, user-friendly interface. It features role-based dashboards, where teachers can create, update, and manage courses, track enrollments, and oversee transactions, while students can easily enroll in courses, submit feedback, and manage their course engagements. The platform emphasizes security and user customization, allowing profile updates, including images and passwords, for all users. Equipped with a feedback system for course reviews, it encourages continuous improvement. Built using Python, Django, and PostgreSQL for the backend, paired with React JS and Bootstrap for the frontend, and deployed on Vercel, the Online School Project ensures a robust, scalable, and efficient educational environment that supports both teaching and learning.",
+    "gitHub": "https://github.com/46ra20/DRF_FrontEnd",
+    "server": "https://github.com/46ra20/drf_online_school-jsrn-",
+    "live": "https://46ra20.github.io/DRF_FrontEnd/",
     "features": [
-      "Three Step Security",
-      "Private Router",
-      "Admin Seller and Buyer have different Router",
-      "Admin can delete any user",
-      "Admin Can Verify any seller"
+      "User Authentication: Secure login and registration with email verification for both students and teachers.",
+"Role-Based Dashboards:Teacher Dashboard: Create, update, and manage courses; monitor student enrollment; track transactions; and review favorite and enrolled courses.",
+"Student Dashboard: Enroll in courses, submit reviews, manage enrolled courses, and opt for unenrollment as needed.",
+"Course Management: Teachers can add, edit, and delete courses, while students can browse and choose courses to join.",
+"Profile Customization: All users can update their profile information, including images, passwords, and personal details.",
+"Review and Feedback System: Students can provide feedback on courses, helping to maintain high standards and improve the content offered."
     ],
-    "technology": ["Axios", "React Query", "Tailwind"],
+    "technology": [
+      "Backend: Python, Django, Django REST Framework",
+"Database: PostgreSQL, Supabase",
+"Frontend: JavaScript, React JS, HTML5, CSS3, Bootstrap, Tailwind CSS",
+"Deployment: Vercel for reliable and scalable service"
+    ],
     "pictures": [
-      "https://i.ibb.co/qMK5bXg/1-2.png",
-      "https://i.ibb.co/895NPJh/1-4.png",
-      "https://i.ibb.co/FwPJBpM/1-3.png",
-      "https://i.ibb.co/0fY4cZM/1-1.png"
+      "https://i.ibb.co.com/xXmnN4k/1-1.png",
+      "https://i.ibb.co.com/fGcWm8G/1-2.png",
+      "https://i.ibb.co.com/MkGdCbV/1-3.png",
+      "https://i.ibb.co.com/ChyQXfW/1-4.png"
     ]
   },
   {
     "id": "1",
-    "name": "JSRN Kitchen",
-    "description": "Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. Used Product resell. An E-commerce website. ",
-    "gitHub": "https://github.com/46ra20/JSRN-Kitchn-client-side",
-    "server": "https://github.com/46ra20/JSRN-Kitchn-server-side",
-    "live": "https://inspiring-cactus-bc978f.netlify.app/",
+    "name": "POS System",
+    "description": "The POS (Point of Sale) System is a specialized application designed for shops and marketplaces to streamline daily operations and enhance business management. This system provides a comprehensive set of features, including secure user login, detailed dashboards summarizing financial performance, and modules for sales, returns, purchases, and stock management. Users can track inventory in real time, record damaged items, and manage expenses and payments seamlessly. Additionally, it supports product information management by allowing the addition of products, categories, and brands. With integrated promotional tools such as SMS marketing, businesses can easily engage customers and drive sales. Built using robust backend technologies like Python, Django, and PostgreSQL, and supported by a modern frontend with JavaScript, HTML5, and Bootstrap, this POS system ensures reliability, scalability, and user-friendly functionality.",
+    "gitHub": "https://github.com/46ra20/pos_frontend",
+    "server": "https://github.com/46ra20/POS_on_vercel",
+    "live": "https://46ra20.github.io/pos_frontend/",
     "features": [
-      "You can shear your creativity with other",
-      "Full Dynamic",
-      "Different Authentication System"
+      "Secure Login System: Access restricted to authorized users with unique credentials.",
+"Dashboard: Overview of daily, monthly, and yearly financial summaries for quick insights into business performance.",
+"Sales & Returns: Record and manage sales and returns, with a full history of transactions.",
+"Purchases & Stock Management: Log purchases and maintain an updated stock list with real-time tracking.",
+"Product Information Management: Add and manage products, units, categories, and brands to maintain an organized inventory.",
+"Expenses & Payments: Record and track expenses and payments, complete with historical data for financial auditing.",
+"Promotional Tools: Send targeted promotional SMS campaigns to engage customers and drive sales."
     ],
-    "technology": ["React Router Dom", "React Tooltip", "Hot Toaster"],
+    "technology": [
+      "Backend: Python, Django, Django REST Framework for robust server-side development.",
+"Database: PostgreSQL for reliable data management, supported by Supabase for extended database functionalities.",
+"Frontend: JavaScript and React JS for dynamic and interactive UI, with HTML5 and CSS3 providing the structural and stylistic foundation. Bootstrap and Tailwind CSS ensure a responsive and modern design.",
+"Deployment: Vercel for scalable, reliable hosting and seamless deployment."
+    ],
     "pictures": [
-      "https://i.ibb.co/dpTm0zT/2-1.png",
-      "https://i.ibb.co/C7S7R2t/2-2.png",
-      "https://i.ibb.co/XWphCjR/2-3.png",
-      "https://i.ibb.co/5nk0RGy/2-4.png"
+      "https://i.ibb.co.com/4MXqD3K/2-3.png",
+      "https://i.ibb.co.com/GJd80MT/2-1.png",
+      "https://i.ibb.co.com/dj0Ns8R/2-2.png",
+      "https://i.ibb.co.com/rpg6Mdq/2-4.png"
     ]
   },
   {
