@@ -79,10 +79,10 @@ export default function Carousel({pictures}) {
         modules={[Pagination, Navigation]}
         className="mySwiper rounded"
       >
-        <SwiperSlide><img src={pictures[0]} alt='swiperslide' /></SwiperSlide>
-        <SwiperSlide><img src={pictures[1]} alt='swiperslide' /></SwiperSlide>
-        <SwiperSlide><img src={pictures[2]} alt='swiperslide' /></SwiperSlide>
-        <SwiperSlide><img src={pictures[3]} alt='swiperslide' /></SwiperSlide>
+        <SwiperSlide><img src={pictures[0]} alt='swiper slide' /></SwiperSlide>
+        <SwiperSlide><img src={pictures[1]} alt='swiper slide' /></SwiperSlide>
+        <SwiperSlide><img src={pictures[2]} alt='swiper slide' /></SwiperSlide>
+        <SwiperSlide><img src={pictures[3]} alt='swiper slide' /></SwiperSlide>
       </Swiper>
     </>
   );

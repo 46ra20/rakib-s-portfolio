@@ -3,7 +3,7 @@ import picture from "../../../Assets/Images/my_newPic.png";
 
 const AboutMe = () => {
   return (
-    <div id="container about-me" className="my-10">
+    <div id="about" className="my-10">
       <div>
         <h2 className="divider mb-8 text-3xl font-bold">About ME</h2>
       </div>

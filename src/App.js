@@ -6,7 +6,6 @@ import LayOut from "./Pages/LayOut/LayOut";
 import Blog from "./Pages/Blog/Blog"
 import AboutMe from "./Pages/Home/AboutMe/AboutMe";
 import ProjectDetails from "./Pages/Home/Projects/ProjectDetails"
-
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 
@@ -33,7 +32,7 @@ function App() {
             element: <Blog/>
           },
           {
-            path:"/about-me",
+            path:"/home#blog",
             element:<AboutMe/>
           },
           {

@@ -21,7 +21,7 @@ const MenuBar = () => {
         <Link to="/blog">Blog</Link>
       </li>
       <li>
-        <HashLink to="/home#about-me">About</HashLink>
+        <HashLink to="/home#about">About</HashLink>
       </li>
       <li>
         <HashLink to="/home#contact-with-me">Contact With Me</HashLink>
