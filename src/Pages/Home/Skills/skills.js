@@ -57,9 +57,16 @@ const Skills = () => {
         </div>
       </div>
       <div className="text-left mt-5 md:mt-0">
-        <p className="text-left text-3xl font-bold">Education <span className="border rounded-lg p-1 bg-purple-900">Experience</span></p>
-        <p className="py-2 text-xl font-semibold">University of Creative Technology In Chattrogram. <small className="font-normal">(2024-Running)</small></p>
-        <p className="py-2 text-xl font-semibold">Badiul Alam Science And Technology Institute. <small className="font-normal">(2015-2023)</small></p>
+        <p className="text-left text-3xl font-bold">Education</p>
+        <div>
+            <p className="py-2 text-xl font-semibold">University of Creative Technology In Chattrogram. <small className="font-normal">(2024-Running)</small></p>
+            <p className="py-2 text-xl font-semibold">Badiul Alam Science And Technology Institute. <small className="font-normal">(2015-2023)</small></p>
+        </div>
+        <p className="text-left text-3xl font-bold">Courses</p>
+        <div>
+            <p className="py-2 text-xl font-semibold">Complete Web Development Course With Jankar Mahbub. <small className="font-normal text-blue-800"><a href="https://drive.google.com/file/d/1cgFPIcF2DxCuGp-xq4w15tgse9wMAuvF/view" rel="no-referance" target="_blank">(Certificate)</a></small></p>
+            
+        </div>
       </div>
     </div>
   );
