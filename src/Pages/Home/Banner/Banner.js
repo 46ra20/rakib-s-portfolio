@@ -7,10 +7,12 @@ const Banner = () => {
   return (
     <div className="container mx-auto flex flex-col-reverse md:flex-row items-center text-center">
       <div className="md:w-1/2">
+        <p className="text-3xl font-bold mb-3">Hi' This is Md Rakib Bhuiyan</p>
         <TextTyped/>
         <div className="flex flex-col justify-center items-center">
           <p>C | C++ | Python | DAS | Algorithom | Django | REST API | Database</p>
-          <p>ReactJS | NodeJS | JWT | NextJS | MongoDB | Firebase</p>
+          <p>HTML | CSS | JAvaScript</p>
+          <p>ReactJS | NodeJS | JWT | MongoDB | Firebase</p>
           <ul className="menu menu-horizontal px-1">
             <li className="p-1">
               <a className="text-2xl p-1" href="https://www.linkedin.com/in/md-rakib-bhuiyan" target="_blank" rel="noreferrer" ><SiLinkedin/></a>

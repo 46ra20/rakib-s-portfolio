@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Project({ project }) {
   const { id, name, gitHub, server, live, description, pictures } = project;
   return (
-    <div className="card glass w-96 mx-auto">
+    <div className="card glass mx-auto">
       <figure>
         <img
           src={pictures}
@@ -24,7 +24,7 @@ function Project({ project }) {
           </a>)}
            |
           {gitHub && (<a href={gitHub} target={"_blank"} rel="noreferrer" className="pl-2 pr-2">
-             Frontend Code
+             Frontend
           </a>)}
           |
           {server && (<a
@@ -33,7 +33,7 @@ function Project({ project }) {
             rel="noreferrer"
             className="pl-2"
           >
-            Backend Code
+            Backend
           </a>)}
         </p>
         <div className="card-actions justify-end">
@@ -93,7 +93,7 @@ function Project({ project }) {
     //                         rel="noreferrer"
     //                         className="border-l-2 pl-2"
     //                     >
-    //                         Server Side Code
+    //                         Server Side
     //                     </a>
     //                 }
     //                 {

@@ -4,15 +4,16 @@ import { ReactTyped } from "react-typed";
 
 const TextTyped = () => {
   return (
-    <div className="text-3xl font-semibold h-32">
+    <div className="text-3xl font-semibold my-3">
       <div>
         <ReactTyped
           strings={[
             "Welcome To my portfolio...",
+            "I'm a Software Developer...",
             "How can I help you?",
-            "Please send me a massage.",
+            "Please send me a massage...",
             "I will try to reply very soon...",
-            "Thank you very much for visiting my portfolio.",
+            "Thank you...",
           ]}
           typeSpeed={100}
           backSpeed={100}

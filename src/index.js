@@ -6,6 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import UserContext from './Pages/UserContext/UserContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// console.log(window.matchMedia('(prefers-color-scheme: dark)').matches)
+// if(window.matchMedia('(prefers-color-scheme: light)')){
+//   window.matchMedia('(prefers-color-scheme: light)').matches = false
+//   window.matchMedia('(prefers-color-scheme: dark)').matches = true
+// }
 root.render(
   <React.StrictMode>
     <UserContext>

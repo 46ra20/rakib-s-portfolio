@@ -23,7 +23,7 @@ const ContactWithMe = () => {
     })
     .then(res=>res.json())
     .then(data=>{
-      if(data.id){
+      if(data){
         console.log(data)
         toast('Your Massage Send Successfully.', {
                   position: "bottom-right",

@@ -10,6 +10,7 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 
 import './App.css';
+import "./output.css"
 
 function App() {
   const router = createBrowserRouter(

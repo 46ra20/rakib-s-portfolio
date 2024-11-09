@@ -36,7 +36,7 @@ const Projects = () => {
                           <div>
                             <h2 className="divider mb-8 text-3xl font-bold">Projects</h2>
                           </div>
-                          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+                          <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
                             { 
                               data.map((project) => (
                                 <Project project={project} key={project.id} />
