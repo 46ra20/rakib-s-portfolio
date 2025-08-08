@@ -107,7 +107,7 @@ const MenuBar = () => {
         <div className="navbar-end">
           <a
             className="btn"
-            href="https://drive.google.com/file/d/1p2OYF23t8UAWW307IjKIOFxlxLrhZuNU/view?usp=sharing"
+            href="https://drive.google.com/file/d/1wVhqh_UDy4MvK7uITfzqaYXz9QGPX6GY/view?usp=sharing"
             target="_blank" rel="noreferrer"
           >
             My Resume

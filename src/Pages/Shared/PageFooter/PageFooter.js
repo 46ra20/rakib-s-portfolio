@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "../../../Assets/Images/image2.jpg"
+import picture from "../../../Assets/Images/my_oldPic.jpeg"
 import { SiWhatsapp,SiLinkedin,SiGithub,SiFacebook } from "react-icons/si";
 
 const PageFooter = () => {

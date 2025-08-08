@@ -9,7 +9,9 @@ const TextTyped = () => {
         <ReactTyped
           strings={[
             "Welcome To my portfolio...",
-            "I'm a Software Developer...",
+            "I'm a Jr. Penetration Tester",
+            "Also I'm a....",
+            "Software Developer...",
             "How can I help you?",
             "Please send me a massage...",
             "I will try to reply very soon...",

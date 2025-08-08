@@ -1,6 +1,7 @@
 import React from "react";
 // import picture from "../../../Assets/Images/image2.jpg";
-import picture from "../../../Assets/Images/my_oldPic.jpg"
+// import picture from "../../../Assets/Images/my_oldPic.jpg"
+import picture from "../../../Assets/Images/my_oldPic.jpeg"
 const BannerImage = () => {
   return (
     <div className="my-6">

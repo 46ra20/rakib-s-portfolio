@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
       <div className="container">
-        <p className="text-left text-3xl font-bold">Skills & Experience</p>
+        <p className="text-left text-3xl font-bold text-white">Skills & Experience</p>
         <div className="grid grid-cols-2 gap-4  my-2">
             <div className="text-left">
                 <p className="text-xl font-semibold">C</p>
@@ -57,14 +57,18 @@ const Skills = () => {
         </div>
       </div>
       <div className="text-left mt-5 md:mt-0">
-        <p className="text-left text-3xl font-bold">Education</p>
+        <p className="text-left text-3xl font-bold text-white">Education</p>
         <div>
             <p className="py-2 text-xl font-semibold">University of Creative Technology In Chattrogram. <small className="font-normal">(2024-Running)</small></p>
             <p className="py-2 text-xl font-semibold">Badiul Alam Science And Technology Institute. <small className="font-normal">(2015-2023)</small></p>
         </div>
-        <p className="text-left text-3xl font-bold">Courses</p>
+        <p className="text-left text-3xl font-bold text-white">Courses</p>
         <div>
             <p className="py-2 text-xl font-semibold">Complete Web Development Course With Jankar Mahbub. <small className="font-normal text-blue-800"><a href="https://drive.google.com/file/d/1cgFPIcF2DxCuGp-xq4w15tgse9wMAuvF/view" rel="no-referance" target="_blank">(Certificate)</a></small></p>
+
+                  <p className="py-2 text-xl font-semibold">Complete Software Development Course From Phitron.</p>
+
+            <p className="py-2 text-xl font-semibold">Complete EHP (Ethical Hacking for Professional) Course From ByteCapsule. <small className="font-normal text-blue-800"><a href="https://drive.google.com/file/d/13S5tGKOxLXaNlAmDuqx9CtxLHXCv6pIh/view?usp=sharing" rel="no-referance" target="_blank">(Certificate)</a></small></p>
             
         </div>
       </div>

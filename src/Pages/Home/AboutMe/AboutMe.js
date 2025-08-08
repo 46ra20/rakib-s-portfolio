@@ -1,5 +1,6 @@
 import React from "react";
-import picture from "../../../Assets/Images/my_newPic.png";
+// import picture from "../../../Assets/Images/my_newPic.png";
+import picture from "../../../Assets/Images/my_newPic.jpg"
 
 const AboutMe = () => {
   return (
@@ -9,7 +10,7 @@ const AboutMe = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center container mx-auto my-10">
         <div className="mx-2 md:mx-0 md:w-4/4 text-left">
-          <p className="text-left">
+          <p className="text-justify">
             Assalamualaikum,
             <br />
             Hello, everyone! I’m Md Rakib Bhuiyan, currently pursuing a degree
